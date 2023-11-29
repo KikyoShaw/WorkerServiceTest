@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerService1", "WorkerService1\WorkerService1.csproj", "{A26D3CB3-116E-433A-8748-2661B66DE241}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyService", "..\WorkerServiceAsWindowsService\MyService.csproj", "{EC8D3180-AC17-4540-A890-C8C74E2C01AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A26D3CB3-116E-433A-8748-2661B66DE241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26D3CB3-116E-433A-8748-2661B66DE241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26D3CB3-116E-433A-8748-2661B66DE241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26D3CB3-116E-433A-8748-2661B66DE241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC8D3180-AC17-4540-A890-C8C74E2C01AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8D3180-AC17-4540-A890-C8C74E2C01AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8D3180-AC17-4540-A890-C8C74E2C01AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8D3180-AC17-4540-A890-C8C74E2C01AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C76BBBD4-6F9E-4CEE-BE2B-752CE6A8BF57}
+	EndGlobalSection
+EndGlobal
